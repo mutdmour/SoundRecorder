@@ -13,7 +13,7 @@ public class SoundRecorder extends WearableActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sound_recorder);
 
-        mTextView = (TextView) findViewById(R.id.text);
+//        mTextView = (TextView) findViewById(R.id.text);
 
         // Enables Always-on
         setAmbientEnabled();

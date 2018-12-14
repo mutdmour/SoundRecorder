@@ -22,6 +22,11 @@ android {
         }
     }
 
+//    clean this  up
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {
@@ -33,3 +38,4 @@ dependencies {
     })
 
 }
+
