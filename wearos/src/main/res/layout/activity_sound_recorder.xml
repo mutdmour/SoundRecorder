@@ -15,6 +15,17 @@
         android:padding="@dimen/inner_frame_layout_padding"
         app:boxedEdges="all">
 
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </FrameLayout>
 </android.support.wear.widget.BoxInsetLayout>
